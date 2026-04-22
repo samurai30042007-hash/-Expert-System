@@ -37,22 +37,25 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Controls.Add(button1);
-            flowLayoutPanel1.Location = new Point(95, 80);
+            flowLayoutPanel1.Location = new Point(0, 163);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Padding = new Padding(250, 200, 250, 0);
-            flowLayoutPanel1.Size = new Size(701, 469);
+            flowLayoutPanel1.Padding = new Padding(357, 80, 357, 0);
+            flowLayoutPanel1.Size = new Size(914, 412);
             flowLayoutPanel1.TabIndex = 0;
-            flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
             // 
             // button1
             // 
-            button1.Location = new Point(253, 203);
+            button1.BackColor = Color.LightGreen;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Location = new Point(360, 83);
             button1.Name = "button1";
             button1.Size = new Size(200, 54);
             button1.TabIndex = 2;
             button1.Text = "Старт";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+            RoundButton(button1, 15);
             // 
             // label1
             // 
@@ -67,12 +70,12 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(915, 575);
             Controls.Add(label1);
             Controls.Add(flowLayoutPanel1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();

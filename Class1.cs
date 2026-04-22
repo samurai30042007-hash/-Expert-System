@@ -28,13 +28,13 @@ namespace VVII_laba3
             }
         }
 
-        internal Node FindNode( string answer)
+        internal Node FindNode(string answer)
         {
             if (Tree is null)
             {
                 throw new ArgumentNullException("Tree", "Null Value");
             }
-            
+            stackNodes.Push(answer);
             return Tree[answer];
         }
         

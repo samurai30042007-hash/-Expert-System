@@ -1,4 +1,4 @@
-using System.Xml.Linq;
+using System.Drawing.Drawing2D;
 
 namespace VVII_laba3
 {
@@ -9,21 +9,47 @@ namespace VVII_laba3
 
         public Form1()
         {
-            expertSystem.ReadJsonFile("C:\\Users\\user\\.vscode\\C#\\VVII_laba3\\Tree.json");
+
             InitializeComponent();
 
         }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void RoundButton(Button btn, int radius)
         {
+            GraphicsPath path = new GraphicsPath();
+            int d = radius * 2;
+            Rectangle rect = new Rectangle(0, 0, btn.Width, btn.Height);
 
+            path.AddArc(rect.X, rect.Y, d, d, 180, 90);
+            path.AddArc(rect.Right - d, rect.Y, d, d, 270, 90);
+            path.AddArc(rect.Right - d, rect.Bottom - d, d, d, 0, 90);
+            path.AddArc(rect.X, rect.Bottom - d, d, d, 90, 90);
+            path.CloseFigure();
+
+            btn.Region = new Region(path);
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.FlatAppearance.BorderSize = 0;
+
+            btn.FlatAppearance.MouseOverBackColor = btn.BackColor;
+            btn.FlatAppearance.MouseDownBackColor = ControlPaint.Light(btn.BackColor);
         }
-        private void CreateButton(object sender, EventArgs e)
+
+        private void CreateButton_click(object sender, EventArgs e)
         {
+
             Button clickedButton = (Button)sender;
-            Node node = expertSystem.FindNode(clickedButton.Tag.ToString());
+            Node node = null;
+            try
+            {
+                node = expertSystem.FindNode(clickedButton.Tag.ToString());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Не удалось загрузить базу знаний:\n{ex.Message}", "Ошибка",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
             flowLayoutPanel1.Controls.Clear();
-            if (node.IsFinal)
+            if (node!.IsFinal)
             {
                 flowLayoutPanel1.Hide();
                 label1.Text = node.Title;
@@ -34,42 +60,49 @@ namespace VVII_laba3
             else
             {
                 label1.Text = node.Question;
-                foreach (var (key, item) in node.Answer)
-                {
-                    Button button = new();
-                    button.Text = key;
-                    button.Tag = item;
-                    button.Click += CreateButton;
-                    button.Size = new(300, 40);
-                    flowLayoutPanel1.Controls.Add(button);
-                }
+                CreateButton(node);
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Padding = new Padding(200, 0, 250, 0);
-            button1.Hide();
-            Node node = expertSystem.FindNode("root");
-            label1.Text = node.Question;
+            try
+            {
+                await expertSystem.ReadJsonFile("C:\\Users\\user\\.vscode\\C#\\VVII_laba3\\Tree.json");
+                flowLayoutPanel1.Padding = new Padding(357,0, 357, 0);
+                button1.Hide();
+                Node node = expertSystem.FindNode("root");
+                label1.Text = node.Question;
+                CreateButton(node);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Не удалось загрузить базу знаний:\n{ex.Message}", "Ошибка",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+        }
+        private void CreateButton(Node node)
+        {
+            
             foreach (var (key, item) in node.Answer)
             {
                 Button button = new();
                 button.Text = key;
                 button.Tag = item;
-                button.Click += CreateButton;
-                button.Size = new(300, 40);
+                button.Click += CreateButton_click;
+                button.Size = new(200, 40);
+                button.BackColor = Color.LightGreen;
                 flowLayoutPanel1.Controls.Add(button);
+                RoundButton(button, 15);
             }
-
-
-
-
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
+
     }
+
+
 }
+
