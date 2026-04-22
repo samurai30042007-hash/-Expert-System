@@ -1,0 +1,1847 @@
+[
+  {
+    "Id": "root",
+    "Question": "Какова ваша основная цель тренировок?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Сила": "goal_strength",
+      "Гипертрофия": "goal_hypertrophy",
+      "Выносливость": "goal_endurance",
+      "Реабилитация": "goal_rehab"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "goal_strength",
+    "Question": "Каким оборудованием вы располагаете?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Штанга": "strength_barbell",
+      "Гантели": "strength_dumbbell",
+      "Тренажёры": "strength_machine",
+      "Собственный вес": "strength_bodyweight",
+      "Эспандеры": "strength_bands"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "goal_hypertrophy",
+    "Question": "Каким оборудованием вы располагаете?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Штанга": "hyp_barbell",
+      "Гантели": "hyp_dumbbell",
+      "Тренажёры": "hyp_machine",
+      "Собственный вес": "hyp_bodyweight",
+      "Эспандеры": "hyp_bands"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "goal_endurance",
+    "Question": "Каким оборудованием вы располагаете?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Собственный вес": "end_bodyweight",
+      "Гантели": "end_dumbbell",
+      "Штанга": "end_barbell",
+      "Тренажёры": "end_machine",
+      "Эспандеры": "end_bands"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "goal_rehab",
+    "Question": "Каким оборудованием вы располагаете?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Эспандеры": "rehab_bands",
+      "Собственный вес": "rehab_bodyweight",
+      "Тренажёры": "rehab_machine",
+      "Гантели": "rehab_dumbbell",
+      "Штанга": "rehab_barbell"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "strength_barbell",
+    "Question": "Какую мышечную группу вы хотите проработать?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Грудь": "str_barr_chest",
+      "Спина": "str_barr_back",
+      "Квадрицепсы": "str_barr_quad",
+      "Ягодицы/Бицепс бедра": "str_barr_ham",
+      "Плечи": "str_barr_shoulder",
+      "Руки": "str_barr_arms",
+      "Кор/Пресс": "str_barr_core"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumbbell",
+    "Question": "Какую мышечную группу вы хотите проработать?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Грудь": "hyp_dumb_chest",
+      "Спина": "hyp_dumb_back",
+      "Квадрицепсы": "hyp_dumb_quad",
+      "Ягодицы/Бицепс бедра": "hyp_dumb_ham",
+      "Плечи": "hyp_dumb_shoulder",
+      "Руки": "hyp_dumb_arms",
+      "Кор/Пресс": "hyp_dumb_core"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bodyweight",
+    "Question": "Какую мышечную группу вы хотите проработать?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Грудь": "end_bw_chest",
+      "Спина": "end_bw_back",
+      "Квадрицепсы": "end_bw_quad",
+      "Ягодицы/Бицепс бедра": "end_bw_ham",
+      "Плечи": "end_bw_shoulder",
+      "Руки": "end_bw_arms",
+      "Кор/Пресс": "end_bw_core"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_bands",
+    "Question": "Какую мышечную группу вы хотите проработать?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Грудь": "rehab_band_chest",
+      "Спина": "rehab_band_back",
+      "Квадрицепсы": "rehab_band_quad",
+      "Ягодицы/Бицепс бедра": "rehab_band_ham",
+      "Плечи": "rehab_band_shoulder",
+      "Руки": "rehab_band_arms",
+      "Кор/Пресс": "rehab_band_core"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_chest",
+    "Question": "Какой у вас уровень подготовки?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Новичок": "str_barr_chest_beg",
+      "Средний": "str_barr_chest_int",
+      "Продвинутый": "str_barr_chest_adv"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_chest",
+    "Question": "Какой у вас уровень подготовки?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Новичок": "hyp_dumb_chest_beg",
+      "Средний": "hyp_dumb_chest_int",
+      "Продвинутый": "hyp_dumb_chest_adv"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_chest",
+    "Question": "Какой у вас уровень подготовки?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Новичок": "end_bw_chest_beg",
+      "Средний": "end_bw_chest_int",
+      "Продвинутый": "end_bw_chest_adv"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_chest",
+    "Question": "Какой у вас уровень подготовки?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Новичок": "rehab_band_chest_beg",
+      "Средний": "rehab_band_chest_int",
+      "Продвинутый": "rehab_band_chest_adv"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_chest_adv",
+    "Question": "Есть ли у вас ограничения по здоровью?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_chest_adv_no",
+      "Проблемы с поясницей": "str_barr_chest_adv_low",
+      "Проблемы с плечами": "str_barr_chest_adv_sh",
+      "Проблемы с коленями": "str_barr_chest_adv_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_chest_int",
+    "Question": "Есть ли у вас ограничения по здоровью?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_dumb_chest_int_no",
+      "Проблемы с поясницей": "hyp_dumb_chest_int_low",
+      "Проблемы с плечами": "hyp_dumb_chest_int_sh",
+      "Проблемы с коленями": "hyp_dumb_chest_int_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_chest_beg",
+    "Question": "Есть ли у вас ограничения по здоровью?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_chest_beg_no",
+      "Проблемы с поясницей": "end_bw_chest_beg_low",
+      "Проблемы с плечами": "end_bw_chest_beg_sh",
+      "Проблемы с коленями": "end_bw_chest_beg_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_chest_beg",
+    "Question": "Есть ли у вас ограничения по здоровью?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "rehab_band_chest_beg_no",
+      "Проблемы с поясницей": "rehab_band_chest_beg_low",
+      "Проблемы с плечами": "rehab_band_chest_beg_sh",
+      "Проблемы с коленями": "rehab_band_chest_beg_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_chest_adv_no",
+    "Question": "Сколько времени вы готовы уделять тренировке?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_1",
+      "30–60 минут": "final_2",
+      ">60 минут": "final_3"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_chest_int_no",
+    "Question": "Сколько времени вы готовы уделять тренировке?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_4",
+      "30–60 минут": "final_5",
+      ">60 минут": "final_6"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_chest_beg_no",
+    "Question": "Сколько времени вы готовы уделять тренировке?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_7",
+      "30–60 минут": "final_8",
+      ">60 минут": "final_9"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_chest_beg_sh",
+    "Question": "Сколько времени вы готовы уделять тренировке?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_10",
+      "30–60 минут": "final_11",
+      ">60 минут": "final_12"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_1",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим штанги лёжа (разминка), жим на наклонной скамье, отжимания на брусьях с весом",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_2",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим штанги лёжа 5х5, жим на наклоне 4х8, отжимания на брусьях с поясом 3х10",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_3",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим штанги лёжа 6х3, жим на наклоне 5х5, отжимания на брусьях с весом 4х8, пуловер со штангой",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_4",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим гантелей лёжа 3х10, разведение гантелей 3х12",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_5",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим гантелей лёжа 4х10, разведение гантелей 4х12, жим на наклоне 3х10",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_6",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим гантелей лёжа 5х10, разведение гантелей 4х12, жим на наклоне 4х10, пуловер с гантелью",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_7",
+    "Question": "",
+    "Path": "",
+    "Title": "Классические отжимания 3х15, отжимания от стола 3х20",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_8",
+    "Question": "",
+    "Path": "",
+    "Title": "Классические отжимания 4х20, отжимания с широкой постановкой 3х15, планка с хлопком",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_9",
+    "Question": "",
+    "Path": "",
+    "Title": "Отжимания 5х20, отжимания с паузой, отжимания с прыжком, планка с переходом в упор",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_10",
+    "Question": "",
+    "Path": "",
+    "Title": "Лёгкое сведение с резиной стоя, дыхательные упражнения",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_11",
+    "Question": "",
+    "Path": "",
+    "Title": "Сведение рук с эспандером стоя 3х15, статическое удержание 3х20 сек, растяжка",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_12",
+    "Question": "",
+    "Path": "",
+    "Title": "Сведение с резиной 4х15, жим эспандера сидя 3х12, растяжка грудного отдела, мобилизация",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_back_adv",
+    "Question": "Есть ли у вас ограничения по здоровью?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_back_adv_no",
+      "Проблемы с поясницей": "str_barr_back_adv_low",
+      "Проблемы с плечами": "str_barr_back_adv_sh",
+      "Проблемы с коленями": "str_barr_back_adv_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_back_adv_no",
+    "Question": "Сколько времени вы готовы уделять тренировке?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_13",
+      "30–60 минут": "final_14",
+      ">60 минут": "final_15"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_back_adv_low",
+    "Question": "Сколько времени вы готовы уделять тренировке?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_16",
+      "30–60 минут": "final_17",
+      ">60 минут": "final_18"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_13",
+    "Question": "",
+    "Path": "",
+    "Title": "Становая тяга 3х5, тяга блока к поясу 3х10",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_14",
+    "Question": "",
+    "Path": "",
+    "Title": "Становая тяга 5х5, тяга штанги в наклоне 4х8, тяга блока к груди",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_15",
+    "Question": "",
+    "Path": "",
+    "Title": "Становая тяга 6х3, тяга штанги в наклоне 5х6, тяга Т-грифа 4х8, шраги со штангой",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_16",
+    "Question": "",
+    "Path": "",
+    "Title": "Тяга блока к поясу сидя 3х12 (с опорой груди), гиперэкстензия без веса",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_17",
+    "Question": "",
+    "Path": "",
+    "Title": "Тяга гантели одной рукой с опорой 4х10, тяга блока к поясу 3х12, растяжка спины",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_18",
+    "Question": "",
+    "Path": "",
+    "Title": "Тяга гантели в наклоне 5х10, тяга блока к поясу 4х12, обратная гиперэкстензия, растяжка",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_back_int",
+    "Question": "Есть ли у вас ограничения по здоровью?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_dumb_back_int_no",
+      "Проблемы с плечами": "hyp_dumb_back_int_sh"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_back_int_no",
+    "Question": "Сколько времени вы готовы уделять тренировке?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_19",
+      ">60 минут": "final_20"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_19",
+    "Question": "",
+    "Path": "",
+    "Title": "Тяга гантелей в наклоне 4х10, тяга гантели одной рукой 3х12, гиперэкстензия",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "final_20",
+    "Question": "",
+    "Path": "",
+    "Title": "Тяга гантелей в наклоне 5х10, тяга одной рукой 4х12, румынская тяга с гантелями, шраги",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_back_int",
+    "Question": "Есть ли у вас ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_back_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_back_int_no",
+    "Question": "Сколько времени?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_21"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_21",
+    "Question": "",
+    "Path": "",
+    "Title": "Подтягивания классические 4хмакс, австралийские подтягивания 3х15, планка на предплечьях",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_band_back_beg",
+    "Question": "Есть ли ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с поясницей": "rehab_band_back_beg_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_back_beg_low",
+    "Question": "Сколько времени?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_22"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_22",
+    "Question": "",
+    "Path": "",
+    "Title": "Тяга эспандера к поясу сидя 3х15, YTW-подъёмы лёжа, растяжка грудного отдела",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_quad_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_quad_adv_no",
+      "Проблемы с коленями": "str_barr_quad_adv_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_quad_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_23"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_23",
+    "Question": "",
+    "Path": "",
+    "Title": "Приседания со штангой на спине 6х3, фронтальные приседания 4х6, приседания в Смите 3х8",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_quad_adv_kn",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_24"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_24",
+    "Question": "",
+    "Path": "",
+    "Title": "Приседания со штангой на груди 4х8, разгибания ног в тренажёре 3х12, болгарские сплит-приседания",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_quad_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_dumb_quad_int_no",
+      "Проблемы с коленями": "hyp_dumb_quad_int_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_quad_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_25"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_25",
+    "Question": "",
+    "Path": "",
+    "Title": "Кубковые приседания 4х10, выпады с ходьбой 3х12 на ногу, зашагивания на тумбу",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_quad_int_kn",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_26"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_26",
+    "Question": "",
+    "Path": "",
+    "Title": "Приседания сумо с гантелей 4х12, частичные приседания 3х15, подъём на носки",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_quad_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_quad_beg_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_quad_beg_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_27"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_27",
+    "Question": "",
+    "Path": "",
+    "Title": "Приседания без веса 3х20, выпады на месте 3х15 на ногу, стул у стены 3х30 сек",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_band_quad_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с коленями": "rehab_band_quad_beg_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_quad_beg_kn",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_28"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_28",
+    "Question": "",
+    "Path": "",
+    "Title": "Разгибания ног с резиной 3х15, подъём прямой ноги лёжа 3х12, изометрическое сокращение квадрицепса",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_ham_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_ham_adv_no",
+      "Проблемы с поясницей": "str_barr_ham_adv_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_ham_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_29"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_29",
+    "Question": "",
+    "Path": "",
+    "Title": "Румынская тяга со штангой 5х6, ягодичный мостик со штангой 4х10, выпады назад с весом",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_ham_adv_low",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_30"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_30",
+    "Question": "",
+    "Path": "",
+    "Title": "Становая тяга сумо (акцент на технику), гиперэкстензия с весом, тяга блока между ног",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_ham_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_dumb_ham_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_ham_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_31"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_31",
+    "Question": "",
+    "Path": "",
+    "Title": "Болгарские сплит-приседания 4х10, румынская тяга с гантелями 4х10, махи ногой с утяжелителем",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_ham_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_ham_beg_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_ham_beg_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_32"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_32",
+    "Question": "",
+    "Path": "",
+    "Title": "Ягодичный мостик на полу 3х20, обратные выпады 3х15, подъём таза лёжа",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_band_ham_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с коленями": "rehab_band_ham_beg_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_ham_beg_kn",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_33"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_33",
+    "Question": "",
+    "Path": "",
+    "Title": "Отведение ноги с резиной в сторону 3х15, мостик с лентой 3х15, подъём ноги лёжа на животе",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_shoulder_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_shoulder_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_shoulder_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_34"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_34",
+    "Question": "",
+    "Path": "",
+    "Title": "Армейский жим стоя 5х5, жим штанги из-за головы 4х8, тяга штанги к подбородку широким хватом",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_shoulder_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_dumb_shoulder_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_shoulder_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_35"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_35",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим гантелей сидя 4х10, разводка гантелей в стороны 3х12, тяга к подбородку с гантелями",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_shoulder_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с плечами": "end_bw_shoulder_beg_sh"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_shoulder_beg_sh",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_36"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_36",
+    "Question": "",
+    "Path": "",
+    "Title": "Отжимания узким хватом (облегчённые), планка с касанием плеч, подъём рук в стороны без веса",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_band_shoulder_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с плечами": "rehab_band_shoulder_beg_sh"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_shoulder_beg_sh",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_37"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_37",
+    "Question": "",
+    "Path": "",
+    "Title": "Внешняя ротация с резиной 3х15, подъём рук вперёд с лёгкой лентой, растяжка капсулы сустава",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_arms_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_arms_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_arms_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_38"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_38",
+    "Question": "",
+    "Path": "",
+    "Title": "Подъём штанги на бицепс стоя 5х8, французский жим со штангой 4х10, отжимания на брусьях с весом",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_arms_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_dumb_arms_int_no",
+      "Проблемы с локтями": "hyp_dumb_arms_int_elb"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_arms_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_39"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_39",
+    "Question": "",
+    "Path": "",
+    "Title": "Подъём гантелей на бицепс сидя 4х10, молотки 3х12, разгибание гантели из-за головы на трицепс",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_arms_int_elb",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_40"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_40",
+    "Question": "",
+    "Path": "",
+    "Title": "Концентрированные сгибания на бицепс 3х12, разгибания на блоке с верёвкой, отжимания от стены",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_arms_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_arms_beg_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_arms_beg_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_41"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_41",
+    "Question": "",
+    "Path": "",
+    "Title": "Подтягивания обратным хватом 3хмакс, отжимания узким хватом 3х15, статическое удержание",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_band_arms_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с локтями": "rehab_band_arms_beg_elb"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_arms_beg_elb",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_42"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_42",
+    "Question": "",
+    "Path": "",
+    "Title": "Сгибание рук с резиной стоя 3х15, разгибания с лёгкой резиной, изометрическое сокращение",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_core_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_core_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_core_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_43"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_43",
+    "Question": "",
+    "Path": "",
+    "Title": "Русские скручивания с весом 4х20, подъём ног в висе с утяжелителем, планка с блином на спине",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_core_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_dumb_core_int_no",
+      "Проблемы с поясницей": "hyp_dumb_core_int_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_dumb_core_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_44"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_44",
+    "Question": "",
+    "Path": "",
+    "Title": "Скручивания с гантелей у груди 4х15, подъём коленей к груди лёжа 3х15, планка с касанием плеч",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_dumb_core_int_low",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_45"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_45",
+    "Question": "",
+    "Path": "",
+    "Title": "Мёртвый жук 3х12, тазовые подъёмы 3х15, растяжка пояснично-подвздошной мышцы",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_core_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с поясницей": "end_bw_core_beg_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_core_beg_low",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_46"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_46",
+    "Question": "",
+    "Path": "",
+    "Title": "Скручивания с опорой под поясницу, планка на коленях 3х20 сек, мёртвый жук",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_band_core_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с поясницей": "rehab_band_core_beg_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_band_core_beg_low",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_47"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_47",
+    "Question": "",
+    "Path": "",
+    "Title": "Дыхание диафрагмой, активация поперечной мышцы живота, упражнение птица-собака",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_machine_chest_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_machine_chest_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_machine_chest_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_48"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_48",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим в тренажёре Хаммер 4х10, разводка в кроссовере 3х12, пуловер в блоке",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_machine_back_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_machine_back_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_machine_back_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_49"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_49",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим в фиксированном тренажёре 5х6, тяга вертикального блока 4х10, отжимания на брусьях с поясом",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_machine_quad_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_machine_quad_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_machine_quad_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_50"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_50",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим ногами 4х12, разгибания ног в тренажёре 3х15, приседания в гакк-машине",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_machine_ham_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_machine_ham_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_machine_ham_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_51"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_51",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим ногами узкой постановкой 5х8, сгибания ног в тренажёре лёжа 4х12, ягодичный мостик в тренажёре",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_machine_shoulder_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_machine_shoulder_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_machine_shoulder_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_52"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_52",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим в тренажёре на дельты 4х10, разводка на среднюю дельту 3х12, обратные разведения",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_machine_arms_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_machine_arms_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_machine_arms_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_53"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_53",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим в тренажёре на трицепс 5х10, тяга блока на бицепс 4х12, суперсеты бицепс-трицепс",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_machine_core_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_machine_core_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_machine_core_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_54"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_54",
+    "Question": "",
+    "Path": "",
+    "Title": "Скручивания в тренажёре 4х15, подъём ног в упоре на локтях 3х12, скручивания на римском стуле",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_chest_beg",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_chest_beg_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_chest_beg_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_55"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_55",
+    "Question": "",
+    "Path": "",
+    "Title": "Приседания с пустым грифом 4х12, приседания с опорой на стену, разгибания ног с прогрессией",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_machine_back_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с поясницей": "rehab_machine_back_int_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_machine_back_int_low",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_56"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_56",
+    "Question": "",
+    "Path": "",
+    "Title": "Тяга в тренажёре с грудной опорой 3х12, обратная гиперэкстензия, растяжка широчайших",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_machine_quad_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с коленями": "rehab_machine_quad_int_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_machine_quad_int_kn",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_57"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_57",
+    "Question": "",
+    "Path": "",
+    "Title": "Разгибания ног с лёгким весом 3х15, жим ногами с ограниченной амплитудой, статика у стены",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_ham_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с поясницей": "end_bw_ham_int_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_ham_int_low",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_58"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_58",
+    "Question": "",
+    "Path": "",
+    "Title": "Приседания плие 3х20, подъёмы на возвышенность, планка с подъёмом ноги",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_bodyweight_ham_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с коленями": "rehab_bodyweight_ham_int_kn"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_bodyweight_ham_int_kn",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_59"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_59",
+    "Question": "",
+    "Path": "",
+    "Title": "Мостик с прокручиванием таза 3х15, подъём ноги стоя, растяжка подколенных сухожилий",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_shoulder_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_shoulder_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_shoulder_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_60"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_60",
+    "Question": "",
+    "Path": "",
+    "Title": "Отжимания с широкой постановкой 3х15, стойка на руках у стены (подготовка), круговые движения руками",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "rehab_machine_shoulder_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с плечами": "rehab_machine_shoulder_int_sh"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "rehab_machine_shoulder_int_sh",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_61"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_61",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим в тренажёре с ограниченной амплитудой, тяга блока к лицу, статика в разведении",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_shoulder_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barr_shoulder_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barr_shoulder_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_62"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_62",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим штанги сидя 5х6, тяга штанги к подбородку узким хватом 4х10, шраги со штангой",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_core_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_core_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_core_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_63"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_63",
+    "Question": "",
+    "Path": "",
+    "Title": "Планка 3х30 сек, боковая планка 2х20 сек на сторону, скручивания стоя",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barr_core_adv_no2",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_64"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_64",
+    "Question": "",
+    "Path": "",
+    "Title": "Скручивания в блоке 4х15, подъём ног в висе с весом 3х10, динамическая планка",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_barbell_chest_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Проблемы с поясницей": "hyp_barbell_chest_int_low"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_barbell_chest_int_low",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_65"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_65",
+    "Question": "",
+    "Path": "",
+    "Title": "Жим штанги лёжа (умеренный прогиб) 4х10, жим в Смите 3х12, разводка с гантелями",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_machine_ham_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_machine_ham_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_machine_ham_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_66"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_66",
+    "Question": "",
+    "Path": "",
+    "Title": "Сгибания ног в тренажёре 4х12, жим ногами одной ногой 3х10, гиперэкстензия с акцентом на ягодицы",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_quad_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_quad_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_quad_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "<30 минут": "final_67"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_67",
+    "Question": "",
+    "Path": "",
+    "Title": "Приседания с прыжком 3х12, выпады в движении 3х10 на ногу, боковые приседания",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "str_barbell_ham_int",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "str_barbell_ham_int_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "str_barbell_ham_int_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_68"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_68",
+    "Question": "",
+    "Path": "",
+    "Title": "Good mornings 4х10, румынская тяга 4х8, зашагивания на тумбу со штангой",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "hyp_barbell_core_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "hyp_barbell_core_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "hyp_barbell_core_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      ">60 минут": "final_69"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_69",
+    "Question": "",
+    "Path": "",
+    "Title": "Боковые наклоны с весом 4х15 на сторону, русский твист с гирей 3х20, планка с перекатом",
+    "Answer": {},
+    "IsFinal": true
+  },
+  {
+    "Id": "end_bw_core_adv",
+    "Question": "Ограничения?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "Нет ограничений": "end_bw_core_adv_no"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "end_bw_core_adv_no",
+    "Question": "Время?",
+    "Path": "",
+    "Title": "",
+    "Answer": {
+      "30–60 минут": "final_70"
+    },
+    "IsFinal": false
+  },
+  {
+    "Id": "final_70",
+    "Question": "",
+    "Path": "",
+    "Title": "Скручивания 4х20, подъём ног в висе 3х12, велосипед 3х30 сек",
+    "Answer": {},
+    "IsFinal": true
+  }
+]
